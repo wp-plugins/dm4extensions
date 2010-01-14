@@ -3,7 +3,7 @@ Contributors: honza.skypala
 Donate link: http://www.honza.info
 Tags: download manager, download monitor, WordPress, plugin, theme
 Requires at least: 2.8
-Tested up to: 2.8.6
+Tested up to: 2.9.1
 Stable tag: 1.0
 
 This is add-on for two most favorite download manager plug-ins for WordPress, i.e. <a href="http://wordpress.org/extend/plugins/wp-downloadmanager/" target="_blank">WP-DownloadManager</a> and <a href="http://wordpress.org/extend/plugins/download-monitor/" target="_blank">WordPress Download Monitor</a>. If you have your own WP plug-in or theme and you host it on wordpress.org site and also list it in your blog in your favorite download manager, then this plug-in automatically updates hits on these files based on information provided by statistics retrieved from wordpress.org site.
