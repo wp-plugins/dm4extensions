@@ -3,7 +3,7 @@
 Plugin Name: dm4extensions
 Plugin URI: http://www.honza.info/category/wordpress/
 Description: Automatically updates hits for WP Plugin downloads and themes in download managers WP-DownloadManager and WordPress Download Monitor, based on hits reported by <a href="http://wordpress.org/extend/" target="_blank">wordpress.org</a> website. Needs one of these two download managers to be installed in your WP site.
-Version: 1.0
+Version: 1.1
 Author: Honza Skýpala
 Author URI: http://www.honza.info
 */
@@ -32,10 +32,10 @@ function dm4extensions_wp_downloadmanager() {
 function dm4extensions_update($types, $table_name, $id, $filename, $hits, $version='') {
 	if ($types == 'plugins') {
 		$like_pattern = 'http://downloads.wordpress.org/plugin/%.zip';
-		$preg_pattern = 'http://downloads\.wordpress\.org/plugin/([a-zA-Z0-9_]+)(\.([0-9\.]+)|)\.zip';
+		$preg_pattern = 'http://downloads\.wordpress\.org/plugin/([a-zA-Z0-9_\-]+)(\.([0-9\.]+)|)\.zip';
 	} elseif ($types == 'themes') {
 		$like_pattern = 'http://wordpress.org/extend/themes/download/%.zip';
-		$preg_pattern = 'http://wordpress\.org/extend/themes/download/([a-zA-Z0-9_]+)(\.([0-9\.]+)|)\.zip';
+		$preg_pattern = 'http://wordpress\.org/extend/themes/download/([a-zA-Z0-9_\-]+)(\.([0-9\.]+)|)\.zip';
 	} else {
 		return;
 	}
