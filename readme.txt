@@ -3,8 +3,8 @@ Contributors: honza.skypala
 Donate link: http://www.honza.info
 Tags: download manager, download monitor, WordPress, plugin, theme
 Requires at least: 2.8
-Tested up to: 3.2.1
-Stable tag: 1.1
+Tested up to: 3.9.1
+Stable tag: 1.2
 
 This is add-on for two most favorite download manager plug-ins for WordPress, i.e. <a href="http://wordpress.org/extend/plugins/wp-downloadmanager/" target="_blank">WP-DownloadManager</a> and <a href="http://wordpress.org/extend/plugins/download-monitor/" target="_blank">WordPress Download Monitor</a>. If you have your own WP plug-in or theme and you host it on wordpress.org site and also list it in your blog in your favorite download manager, then this plug-in automatically updates hits on these files based on information provided by statistics retrieved from wordpress.org site.
 
@@ -42,6 +42,10 @@ English:
 
 == Changelog ==
 
+= 1.2 =
+* rewritten as class, additional code cleaning
+* updated to the current structure of wordpress.org web pages, so the valid info is extracted again
+* updated to the new structure of Download Monitor plugin
 = 1.1 =
 * bugfix - did not work with plugins containing "-" in its URL
 = 1.0 =
@@ -50,4 +54,18 @@ English:
 
 == Licence ==
 
-WTFPL license applies
+WTFPL License 2.0 applies
+
+<code>           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.</code>
